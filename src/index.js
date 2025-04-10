@@ -14,7 +14,7 @@ app.use(express.json());// middleware to parse json data
 app.use(express.text());
 app.use(express.urlencoded());
 
-app.get('/ping',isAuthenticated,(req,res)=>{
+app.get('/ping',(req,res)=>{
     console.log(req.query);
     console.log(req.body);
     console.log(req.user);
