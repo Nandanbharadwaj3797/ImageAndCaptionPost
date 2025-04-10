@@ -1,0 +1,11 @@
+npm init -y
+npm i express
+
+then create src(source >> write your all business logic in source folder ) folder
+
+start ES6 moduling  using "type":"module" in package.json file  that means import export type syntax
+
+
+database connection
+--------------------
+go to mongodb atlas console
